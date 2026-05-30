@@ -7,7 +7,8 @@ const LlamaLogLevel logLevel = LlamaLogLevel.error;
 
 const modelUrl =
     //'hf://unsloth/functiongemma-270m-it-GGUF/functiongemma-270m-it-Q4_K_M.gguf';
-    'hf://Qwen/Qwen2.5-0.5B-Instruct-GGUF/qwen2.5-0.5b-instruct-q4_k_m.gguf';
+    //'hf://Qwen/Qwen2.5-0.5B-Instruct-GGUF/qwen2.5-0.5b-instruct-q4_k_m.gguf';
+    'hf://Andycurrent/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking_GGUF/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking_Q4_k_m.gguf';
 
 const prompts = [
   'What is the weather temperature in Tunis',
